@@ -1,3 +1,3 @@
-function printHello() {
-  console.log("Hello");
+function printBye() {
+  console.log("Bye");
 }
