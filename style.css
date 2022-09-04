@@ -1,0 +1,351 @@
+body {
+  font-family: Helvetica;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #1ed760;
+}
+
+/* HEADER */
+
+header {
+  background-color: black;
+  color: white;
+}
+
+header #header-content {
+  width: 1160px;
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header #spotify-logo img {
+  margin-top: 10px;
+  height: 45px;
+}
+
+header #spotify-logo a {
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+header nav a {
+  font-size: 15px;
+  padding: 0 17px;
+  font-weight: 600;
+}
+
+header nav span {
+  padding: 0 10px;
+  font-weight: 100;
+}
+
+header nav :nth-child(5),
+header nav :last-child {
+  color: #d9dadc;
+}
+
+header nav :nth-child(5):hover,
+header nav :last-child:hover {
+  color: #1ed760;
+}
+
+/* BLUE BAR */
+
+.blue-bar {
+  background-color: #1d75de;
+  color: white;
+  height: auto;
+  display: flex;
+  align-content: flex-start;
+}
+
+#text-square {
+  width: 1160px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#two {
+  font-size: 21px;
+  font-weight: lighter;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+#buttonOne {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  border: 2px solid black;
+  border-radius: 500px;
+  font-weight: 700;
+  padding: 14px 32px;
+  margin: 10px;
+  width: 175px;
+}
+
+#buttonTwo {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  border: 2px solid white;
+  border-radius: 500px;
+  font-weight: 700;
+  padding: 14px 32px;
+  margin: 10px;
+  width: 175px;
+}
+
+#four {
+  font-size: 0.6875rem;
+  line-height: 1rem;
+  margin-top: 20px;
+}
+
+#empty-big-square {
+  width: 400px;
+}
+
+/* WHITE BAR */
+
+#Título {
+  background-color: white;
+  color: black;
+  text-align: center;
+  display: block;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 5px;
+}
+
+#square {
+  display: flex;
+  flex-direction: column;
+  width: 200 px;
+  margin: 50px;
+  font-size: 8px;
+  justify-content: center;
+}
+
+h1 {
+  padding-top: 15px;
+}
+
+/* GREY BAR */
+
+#greySquare {
+  background-color: #efefef;
+  height: auto;
+  width: auto;
+  text-align: center;
+  padding-top: max(75px, env(safe-area-inset-top));
+  padding-left: max(15px, env(safe-area-inset-left));
+  padding-bottom: max(75px, env(safe-area-inset-bottom));
+  padding-right: max(15px, env(safe-area-inset-right));
+  align-content: center;
+  justify-content: center;
+}
+
+#segundoTitulo {
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+#primeiroTitulo {
+  font-size: 40px;
+  margin-bottom: 2px;
+}
+
+#agrupador {
+  display: flex;
+  flex-direction: row;
+  width: 1170px;
+  align-content: center;
+  margin: auto;
+}
+
+.retangulo {
+  background-color: white;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px grey;
+  padding: 10px;
+  width: 500px;
+}
+
+.superior {
+  text-align: left;
+  padding: 10px;
+}
+
+.free {
+  background-color: #1d75de;
+  color: white;
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 900;
+  width: 100px;
+}
+
+.superior h2 {
+  font-size: 24px;
+  letter-spacing: -1.28px;
+}
+
+.superior h3 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 0px 0px 2px;
+}
+
+.médio {
+  padding: 10px;
+  height: 300px;
+}
+
+.médio div {
+  display: flex;
+  flex-direction: row;
+}
+
+.médio h3 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: left;
+}
+
+.médio div img {
+  width: 30px;
+  height: 30px;
+  align-items: left;
+  margin-right: 10px;
+}
+
+.inferior {
+  padding: 10px;
+}
+
+.inferior h4 {
+  margin-top: 12px;
+  color: rgb(83, 83, 83);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.start {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 500px;
+  font-weight: 700;
+  padding: 14px 75px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  color: white;
+  align-content: center;
+  display: flex;
+}
+
+#bigBox {
+  margin: auto;
+}
+
+#organizer {
+  display: flex;
+  flex-direction: row;
+}
+
+#spotifyLogo img {
+  margin-top: 75px;
+}
+
+.colum {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 75px;
+  margin-left: 60px;
+}
+
+#destaque {
+  color: gray;
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+#threeLogo img {
+  margin-top: 75px;
+  margin-left: 320px;
+}
+
+#portugal {
+  text-align: right;
+  font-weight: 400;
+  color: grey;
+  margin: 5px;
+}
+
+#lastFooter {
+  color: grey;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+}
+
+#beginingFooter {
+  display: flex;
+  flex-direction: row;
+}
+
+#beginingFooter h5 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#endFooter {
+  text-align: right;
+  margin-left: 400px;
+}
